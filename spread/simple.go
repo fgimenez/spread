@@ -31,7 +31,7 @@ func (s *simpleServer) String() string {
 }
 
 func (s *simpleServer) Provider() Provider {
-	return s.l
+	return s.b
 }
 
 func (s *simpleServer) Address() string {
